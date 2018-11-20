@@ -19,6 +19,7 @@ public class StepDefinition {
 	@When("^I launch the application$")
 	public void launchTheApplication(){
 		driver.get("http://unxbtn001/TradingPlatform_CLEAN/");
+		System.out.println("Hello world");
 	}
 	
 	@Then("^Login button should exist$")
